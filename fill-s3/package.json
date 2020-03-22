@@ -1,0 +1,23 @@
+{
+  "name": "fill-s3",
+  "version": "1.0.0",
+  "description": "A cron job that fills the data in mock-data into s3",
+  "main": "index.js",
+  "author": "Chaouch Salah eddine",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.643.0",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
